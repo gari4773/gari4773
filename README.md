@@ -4,11 +4,10 @@
 草野球チーム向けの管理システムです
 
 ## ダウンロード方法
-GitHubからダウンロードするかgit cloneしてください
+GitHubからダウンロードするかgit cloneしてください  
 ダウンロード先
-
-git cloneする場合  
 https://github.com/tech-is/baseball  
+git cloneする場合  
 ```
 git clone https://github.com/tech-is/baseball.git  
 ```
@@ -19,11 +18,8 @@ git clone https://github.com/tech-is/baseball.git
 ・試合マッチング機能(Email)  
 ・チーム情報機能(選手情報・チーム概要)  
 ・チームオーダー管理機能  
-・チームカレンダー機能  
 ・グラウンド検索機能  
 ・試合結果(チーム・選手の成績)  
-・チーム内チャット機能  
-・選手募集  
 ・野球豆知識コーナー 
 ```
 ## 環境構築
