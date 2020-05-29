@@ -9,7 +9,7 @@ GitHubからダウンロードするかgit cloneしてください
 
 git cloneする場合
 ```
-git clone https://github.com/gari4773/baseball.git  
+git clone https://github.com/tech-is/baseball.git  
 ```
 
 ## 環境構築
