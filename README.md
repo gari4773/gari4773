@@ -1,7 +1,31 @@
 # BASEBALL
 
+## BASEBALLとは？
 草野球チーム向けの管理システムです
 
+## ダウンロード方法
+GitHubからダウンロードするかgit cloneしてください
+ダウンロード先
+
+git cloneする場合
+
+## 環境構築
+・apache
+・PHP 7.x
+・MYSQL 10.1.38-MariaDB
+・Codeigniter 3.x
+
+## フォルダ構成
+・application/  
+　　・config/　デフォルトコントローラーの設定やデータベースの設定ファイルを置いています  
+　　・controler/　コントローラーのフォルダ  
+　　・model/　データベース周りの関数をまとめたクラスを置いているフォルダ  
+　　・views/　フロントエンドファイルをまとめたフォルダ  
+・system/ ライブラリやヘルパーを置いているフォルダ  
+・assets/ 静的ファイルをおいているフォルダ  
+　　・CMS/　CMS本体のcssとjsを置いています  
+・index.php　最初にこのファイルを読み込んでください  
+・database.txt　データベースを構築するSQL文を記述しています  
 
 # DEMO
 
