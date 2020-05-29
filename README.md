@@ -10,10 +10,10 @@ GitHubからダウンロードするかgit cloneしてください
 git cloneする場合
 
 ## 環境構築
-・apache
-・PHP 7.x
-・MYSQL 10.1.38-MariaDB
-・Codeigniter 3.x
+・apache  
+・PHP 7.x  
+・MYSQL 10.1.38-MariaDB  
+・Codeigniter 3.x  
 
 ## フォルダ構成
 ・application/  
