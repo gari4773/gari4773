@@ -8,7 +8,7 @@ GitHubからダウンロードするかgit cloneしてください
 ダウンロード先
 
 git cloneする場合
-https://https://github.com/tech-is/baseball
+https://github.com/tech-is/baseball
 ```
 git clone https://github.com/tech-is/baseball.git  
 ```
