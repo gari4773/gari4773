@@ -5,8 +5,9 @@
 
 ## ダウンロード方法
 GitHubからダウンロードするかgit cloneしてください  
-ダウンロード先
+ダウンロード先  
 https://github.com/tech-is/baseball  
+
 git cloneする場合  
 ```
 git clone https://github.com/tech-is/baseball.git  
