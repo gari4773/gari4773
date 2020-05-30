@@ -35,11 +35,11 @@ git clone https://github.com/tech-is/baseball.git
 ```config.ini.sample```をコピーして```config.ini```に名前変更して中身を編集してください。
 
 * **メールの設定**  
-   [mail]  
-    ・Host = メールの環境に合わせてください<例>```gmail:smtp.gmail.com```  
+   ```[mail]  
+    ・Host = メールの環境に合わせてください<例>gmail:smtp.gmail.com  
     ・Username = メールアドレス  
     ・Password = パスワード  
-    ・Secure = SMTPSecure <例>```tls```や```ssl ```  
+    ・Secure = SMTPSecure <例>tlsやssl   
     ・Port = ポート番号  
   
 * **有効期限の設定**  
