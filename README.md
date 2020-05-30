@@ -59,5 +59,3 @@ git clone https://github.com/tech-is/baseball.git
 ・index.php　最初にこのファイルを読み込んでください  
 
 ## データベース構築
-
-## 導入方法
