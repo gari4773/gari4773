@@ -44,21 +44,21 @@ git clone https://github.com/tech-is/baseball.git
     ・Secure = SMTPSecure <例>tlsやssl   
     ・Port = ポート番号  
 
-| パラメータ名 |指定する値 | 説明 |
+| パラメータ名 | 指定値 | 例 |
 | :---: | :---: | :---: |
-| Host | 301 | smtpサーバー名 |  
-| Password | 301 | メールアドレスのパスワード |  
-| Username | 301 | メールアドレス |  
-| Secure | 301 | SMTPSecure |  
-| Port | 301 | ポート番号 |  
+| Host | smtpサーバーを指定 | smtp.gmail.com |
+| Password | メールアドレスのパスワード | ******* |
+| Username | メールアドレス |  *****@gmail.com |
+| Secure | SMTPSecure 暗号化を有効にするかどうか | TLS/STARTTLS推奨 |
+| Port | ポート番号 | SSLポート:465 TLS/STARTTLSポート:587 |
 
 * **有効期限の設定**  
   ```
    [expire]  
     ・day = 本登録リンクのアクセス期限<例>15分：+15 min  
- | パラメータ名 |指定する値 | 説明 |
+ | パラメータ名 |指定値 | 例 |
  | :---: | :---: | :---: |
-| day |  | 本登録リンクのアクセス期限 |
+| day | 本登録リンクのアクセス期限 | 15 (minに対する値を指定) |
 
 ## フォルダ構成
 ・application/  
