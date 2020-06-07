@@ -23,6 +23,7 @@ git clone https://github.com/tech-is/baseball.git
 ・試合結果(チーム・選手の成績)  
 ・野球豆知識コーナー 
 ```
+
 ## 環境構築
 ```
 ・apache  
@@ -42,11 +43,22 @@ git clone https://github.com/tech-is/baseball.git
     ・Password = パスワード  
     ・Secure = SMTPSecure <例>tlsやssl   
     ・Port = ポート番号  
-  
+
+| パラメータ名 |指定する値 | 説明 |
+| :---: | :---: | :---: |
+| Host | 301 | smtpサーバー名 |  
+| Password | 301 | メールアドレスのパスワード |  
+| Username | 301 | メールアドレス |  
+| Secure | 301 | SMTPSecure |  
+| Port | 301 | ポート番号 |  
+
 * **有効期限の設定**  
   ```
    [expire]  
     ・day = 本登録リンクのアクセス期限<例>15分：+15 min  
+ | パラメータ名 |指定する値 | 説明 |
+ | :---: | :---: | :---: |
+| day |  | 本登録リンクのアクセス期限 |
 
 ## フォルダ構成
 ・application/  
