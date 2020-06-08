@@ -62,3 +62,10 @@ git clone https://github.com/tech-is/baseball.git
 ・index.php　最初にこのファイルを読み込んでください  
 
 ## データベース構築
+database.txtに記述してあるSQL分をMysqlを立ち上げて実行してください
+ターミナルで行う場合
+```
+mysql -u root -p パスワード
+MariaDB[(none)] ここにSQLを張り付けて実行
+```
+
