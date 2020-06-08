@@ -36,13 +36,6 @@ git clone https://github.com/tech-is/baseball.git
 ```config.ini.sample```をコピーして```config.ini```に名前変更して中身を編集してください。
 
 * **メールの設定**  
-   ```
-   [mail]  
-    ・Host = メールの環境に合わせてください<例>gmail:smtp.gmail.com  
-    ・Username = メールアドレス  
-    ・Password = パスワード  
-    ・Secure = SMTPSecure <例>tlsやssl   
-    ・Port = ポート番号  
 
 | パラメータ名 | 指定値 | 例 |
 | :---: | :---: | :---: |
@@ -53,9 +46,7 @@ git clone https://github.com/tech-is/baseball.git
 | Port | ポート番号 | TLS/STARTTLSポート:587 |
 
 * **有効期限の設定**  
-  ```
-   [expire]  
-    ・day = 本登録リンクのアクセス期限<例>15分：+15 min  
+ 
  | パラメータ名 |指定値 | 例 |
  | :---: | :---: | :---: |
 | day | 本登録リンクのアクセス期限 | 15 (minに対する値を指定) |
