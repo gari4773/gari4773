@@ -50,7 +50,7 @@ git clone https://github.com/tech-is/baseball.git
 | Password | メールアドレスのパスワード | ******* |
 | Username | メールアドレス |  *****@gmail.com |
 | Secure | SMTPSecure 暗号化を有効にするかどうか | TLS/STARTTLS推奨 |
-| Port | ポート番号 | SSLポート:465 TLS/STARTTLSポート:587 |
+| Port | ポート番号 | TLS/STARTTLSポート:587 |
 
 * **有効期限の設定**  
   ```
