@@ -70,9 +70,9 @@ MariaDB[(none)] ここにSQLを張り付けて実行
 ```
 もしくは
 ```
-cd sqlファイルの場所まで移動
-mysql -u root -p パスワード
-create database db名(新規データベース作成)
-\q(ログアウト)
-mysql -u root -p db名 < baseball.sql(インポート)
+①cd sqlファイルの場所まで移動
+②mysql -u root -p パスワード
+③create database db名(新規データベース作成)
+④\q(ログアウト)
+⑤mysql -u root -p db名 < baseball.sql(インポート)
 ```
